@@ -30,6 +30,27 @@
 .app-button--apple:hover, .app-button--google:hover {transform: scale(1.1);transition: transform 0.4s ease;}
 .celular_new{display:none;}
 
+
+@media screen and (max-width: 430px){
+    .app-promo{margin-top:50px;height:700px;padding:0px;position:relative;}
+.app-promo__phone{display:none;}
+.content__app{width:350px;height:650px;border-radius:25px;top:0;left:0;grid-template-columns:1fr;margin-left:0px;}
+.app-promo__title{font-size:24px;margin-left:50px;margin-bottom:30px;margin-top:-70px;}
+.app-buttons{margin-left:20px;flex-direction:column;gap:15px;}
+.app-button{padding:8px 15px;}
+.app-button__icon{width:20px;height:20px;}
+.app-button__small-text{font-size:10px;}
+.app-button__large-text{font-size:14px;}
+.app-promo__phone{display:none;}
+.app-promo__figura-naranja1{display:none;}
+.app-promo__figura-naranja2{display:none;}
+.app-promo__figura-amarillo3{display:none;}
+.app-promo__figura-verde4{display:none;}
+.app-button--google{width:160px;margin-left:80px;margin-top: 20px;}
+.app-button--apple{width:160px;margin-left:80px;margin-bottom:10px;}
+.celular_new{display:inline;position:absolute;top:333px;left:15px;width: 390px;}
+}
+
 @media screen and (max-width: 412px) {
 .app-promo{margin-top:50px;height:700px;padding:0px;position:relative;}
 .app-promo__phone{display:none;}

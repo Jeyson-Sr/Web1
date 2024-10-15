@@ -47,6 +47,26 @@
 .crypto-card__icon-image-doge{position:relative;top:3px;left:0px;width:50px;height:50px}
 .crypto-card__icon-image-bitcoin{position:relative;top:3px;left:1px;width:55px;height:55px}
 
+@media screen and (max-width:430px){
+    .coin-markets{flex-direction:column-reverse;height:auto;padding:30px 20px}
+    .coin-markets__list,.coin-markets__title{width:100%}
+    .coin-markets__title{margin-top:0;margin-bottom:30px;text-align:center}
+    .coin-markets__title h2{font-size:2rem;margin-bottom:20px}
+    .coin-markets__title p{font-size:1rem}
+    .crypto-dashboard_content{margin-left:0;width:100%;display:flex;flex-direction:column;align-items:center}
+    .crypto-dashboard{padding:20px;height:auto;width:100%;display:flex;flex-direction:column;align-items:center}
+    .crypto-card{width:57%;height:auto;margin-bottom:40px}
+    .crypto-card--doge,.crypto-card--bitcoin{position:static;top:auto;left:auto}
+    .crypto-card__icon{position:static;margin:5px 0}
+    .crypto-card__name{position:static;margin:5px 0;margin-left:10px}
+    .crypto-card__symbol{position:static;margin:5px 0;margin-left:7px}
+    .crypto-card__price{position:static;margin:5px 0}
+    .crypto-card__change{position:static;margin:5px 0}
+    .crypto-card__arrow{position:static;margin:5px 0}
+    .shape{display:none}
+    .free-account__containerTWO{display:none}
+    .crypto-card__icon-image-doge{width:90px;height:55px;position:relative;top:1.5px;left:-1.5px}
+    }
 
 @media screen and (max-width:412px){
 .coin-markets{flex-direction:column-reverse;height:auto;padding:30px 20px}

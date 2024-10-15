@@ -13,6 +13,20 @@
 .innovative-environment__link-cta:hover::after{width:100%;}
 .innovative-environment__link-text{text-align:left;margin-left:20px;margin-top:0px;padding-top:0px;}
 
+@media screen and (max-width:430px){
+    .innovative-environment{padding:50px 20px;}
+    .innovative-environment__title{font-size:2rem;margin-bottom:15px;}
+    .innovative-environment__description{font-size:0.95rem;margin-bottom:30px;}
+    .innovative-environment__links{flex-direction:column;gap:20px;align-items:center;}
+    .innovative-environment__link-create,.innovative-environment__link-submit{width:100%;max-width:350px;height:auto;padding:20px;}
+    .innovative-environment__link-content{flex-direction:row;justify-content:flex-start;align-items:center;}
+    .innovative-environment__link-icon{margin-bottom:0;margin-right:15px;}
+    .innovative-environment__link-text{text-align:left;margin-left:0;}
+    .innovative-environment__link-title{font-size:1.1rem;margin-bottom:5px;}
+    .innovative-environment__link-cta{font-size:0.9rem;}
+    .innovative-environment__title br,.innovative-environment__description br{display:none;}
+    }
+
 @media screen and (max-width:412px){
 .innovative-environment{padding:50px 20px;}
 .innovative-environment__title{font-size:2rem;margin-bottom:15px;}
